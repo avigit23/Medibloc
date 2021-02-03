@@ -1,0 +1,623 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+a,
+a:hover {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+/* Header section start */
+.header-section {
+  width: 100%;
+  padding: 20px 40px;
+  background: url(../images/Header.png) center top no-repeat;
+  background-size: cover;
+}
+.navbar-light .navbar-nav .specific {
+  margin-left: 95px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 28px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  text-shadow: 0px 0px 20px #000;
+  background: url(../images/Line.png) center bottom no-repeat;
+  background-size: auto;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+
+.navbar-light .navbar-nav .special {
+  margin-right: 34px;
+}
+.navbar-light .navbar-nav .btn-info {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #7af1ff;
+  background: transparent;
+  border-radius: 30px;
+  padding: 5px 5px;
+  margin-right: 10px;
+}
+.navbar-light .navbar-nav .btn-info:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background: #7af1ff;
+}
+
+/* banner-section start */
+.banner {
+  width: 100%;
+  padding: 80px 40px;
+}
+
+.inner-banner {
+  width: 100%;
+  padding: 80px 0px;
+}
+.inner-banner h1 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 30px;
+}
+.inner-banner p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #d3e9f9;
+  padding-bottom: 30px;
+}
+.inner-banner .btn-info {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #7af1ff;
+  background: transparent;
+  border-radius: 30px;
+  padding: 5px 5px;
+  margin-right: 10px;
+}
+.inner-banner .btn-info:hover {
+  color: #fff;
+  border: 1px solid #7af1ff;
+  border-radius: 30px;
+  background: #7af1ff;
+}
+
+/* banner-section end */
+
+/* Header section end*/
+
+/* feature section start */
+
+.feature {
+  width: 100%;
+  padding: 80px 40px;
+}
+
+.inner-feature {
+  width: 100%;
+  padding: 20px 0px;
+}
+.inner-feature h1 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #000;
+  background: url(../images/Line.png) left bottom no-repeat;
+  background-size: auto;
+}
+.inner-feature .item {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0px;
+}
+.inner-feature .item .button-info {
+  padding: 60px 80px;
+  margin: 10px;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  box-shadow: -19px 5px 14px #eaf0f5;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+.inner-feature .item .button-info:hover,
+.inner-feature .item .button-info:focus {
+  border: 1px solid #7af1ff;
+  border-radius: 7px;
+  background: #7bb7e2;
+}
+.inner-feature .item .button-info img {
+  margin-bottom: 10px;
+}
+.inner-feature .item .active {
+  background: #7bb7e2;
+}
+.inner-bottom-feature {
+  width: 100%;
+}
+.inner-bottom-feature .owl-carousel .real-time h4 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #515252;
+  padding-bottom: 20px;
+}
+.inner-bottom-feature .owl-carousel .real-time p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4c4c4c;
+  padding-bottom: 20px;
+}
+.inner-bottom-feature .owl-carousel .Block-Chain h4 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #515252;
+  padding-bottom: 20px;
+}
+.inner-bottom-feature .owl-carousel .Block-Chain p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4c4c4c;
+  padding-bottom: 20px;
+}
+.inner-bottom-feature .owl-carousel .Privacy h4 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #515252;
+  padding-bottom: 20px;
+}
+.inner-bottom-feature .owl-carousel .Privacy p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4c4c4c;
+  padding-bottom: 20px;
+}
+.inner-bottom-feature .owl-carousel .Technology h4 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #515252;
+  padding-bottom: 20px;
+}
+.inner-bottom-feature .owl-carousel .Technology p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4c4c4c;
+  padding-bottom: 20px;
+}
+
+/* Feature section end */
+
+/* Healthcare section start */
+.healthcare {
+  width: 100%;
+  padding: 120px 40px 450px;
+  background: url(../images/Healthcare\ Data.png) center top no-repeat;
+  background-size: cover;
+}
+
+.inner-healthcare h1 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #000;
+  background: url(../images/Line.png) left bottom no-repeat;
+  background-size: auto;
+}
+.healthcare .inner-healthcare-text {
+  padding-top: 40px;
+  padding-bottom: 110px;
+}
+.healthcare .inner-healthcare-text h4 span {
+  font-size: 24px;
+  color: #cccccc;
+}
+.healthcare .inner-healthcare-text h4 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #515252;
+  padding-bottom: 20px;
+}
+.healthcare .inner-healthcare-text p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4c4c4c;
+  padding-bottom: 30px;
+}
+.healthcare .inner-healthcare-text .btn-info {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000;
+  border: 1px solid #7af1ff;
+  background: transparent;
+  border-radius: 30px;
+  padding: 8px 10px;
+  margin-right: 10px;
+}
+.healthcare .inner-healthcare-text .btn-info:hover,
+.healthcare .inner-healthcare-text .btn-info:focus {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background: #7af1ff;
+}
+.inner-second-text {
+  text-align: left;
+  padding-left: 460px;
+  margin-bottom: 30px;
+}
+.healthcare .inner-second-text h4 span {
+  font-size: 24px;
+  color: #cccccc;
+}
+.healthcare .inner-second-text h4 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #515252;
+  padding-bottom: 20px;
+}
+.healthcare .inner-second-text p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4c4c4c;
+  padding-bottom: 30px;
+}
+.healthcare .inner-second-text .btn-info {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000;
+  border: 1px solid #7af1ff;
+  background: transparent;
+  border-radius: 30px;
+  padding: 8px 10px;
+  margin-right: 10px;
+}
+.healthcare .inner-second-text .btn-info:hover,
+.healthcare .inner-second-text .btn-info:focus {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background: #7af1ff;
+  box-shadow: 0px 10px 10px;
+}
+.healthcare .inner-third-text {
+  width: 100%;
+  padding: 80px 0px 150px;
+}
+.healthcare .inner-third-text h4 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #515252;
+  padding-bottom: 20px;
+}
+.healthcare .inner-third-text p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4c4c4c;
+  padding-bottom: 30px;
+}
+.healthcare .inner-third-text .btn-info {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000;
+  border: 1px solid #7af1ff;
+  background: transparent;
+  border-radius: 30px;
+  padding: 8px 10px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
+.healthcare .inner-third-text .btn-info:hover,
+.healthcare .inner-third-text.btn-info:focus {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background: #7af1ff;
+  box-shadow: 0px 10px 10px;
+}
+.application {
+  width: 100%;
+  padding: 0px 0px 0px;
+  position: relative;
+}
+.application .inner-app-design {
+  width: 108%;
+  background: url(../images/Application.png) center top no-repeat;
+  background-size: cover;
+  position: absolute;
+  padding-bottom: 1043px;
+  top: -201px;
+  left: -43px;
+}
+
+/* Healthcare section end */
+
+/* map Section Start  */
+.map {
+  width: 100%;
+  padding-top: 432px;
+}
+.map .inner-map {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.map .inner-map .card .card-body {
+  position: absolute;
+  z-index: 1;
+  border: 1px solid #7af1ff;
+  background: radial-gradient(circle, #7af1ff, #fff);
+  top: 117px;
+  left: 329px;
+  box-shadow: 0px 0px 10px;
+}
+.card-body .card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin-left: 5px;
+}
+.card-body .card-text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000;
+  margin-left: 5px;
+}
+.card-body .card-text .fa {
+  margin-right: 10px;
+}
+.card-body .icon {
+  margin-left: 5px;
+}
+.card-body .icon .fa {
+  margin-right: 5px;
+}
+/*map section end   */
+
+/* footer section start */
+.footer {
+  width: 100%;
+  padding: 20px 40px;
+  background: linear-gradient(to right top, #7af1ff, #fff);
+}
+.inner-footer {
+  width: 100%;
+}
+.inner-footer img {
+  padding-bottom: 30px;
+}
+
+.footer .inner-footer p {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #4c4c4c;
+  padding-bottom: 30px;
+}
+.footer-title h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #4c4c4c;
+  padding-bottom: 26px;
+  text-transform: capitalize;
+}
+.footer .footer-title ul li {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4c4c4c;
+  text-transform: capitalize;
+}
+.footer .text h5 {
+  font-size: 10px;
+  font-weight: 500;
+  color: #4c4c4c;
+  text-align: center;
+}
+/* footer section end */
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .banner {
+    width: 100%;
+    padding: 0px 0px;
+  }
+  .inner-banner h1 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 30px;
+  }
+  .inner-banner p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    padding-bottom: 0px;
+  }
+  .feature {
+    width: 100%;
+    padding: 0px 40px;
+  }
+  .healthcare .inner-healthcare-text {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .healthcare {
+    width: 100%;
+    padding: 50px 40px 450px;
+    background: url(../images/Healthcare\ Data.png) center top no-repeat;
+    background-size: cover;
+  }
+  .healthcare .inner-third-text {
+    width: 100%;
+    padding: 0px 0px 150px;
+  }
+
+  .inner-second-text {
+    text-align: left;
+    padding-left: 0px;
+    margin-bottom: 30px;
+  }
+  .map .inner-map .card .card-body {
+    position: absolute;
+    z-index: 1;
+    border: 1px solid #7af1ff;
+    background: radial-gradient(circle, #7af1ff, #fff);
+    top: 85px;
+    left: 0px;
+    box-shadow: 0px 0px 10px;
+  }
+  .application .inner-app-design {
+    width: 136%;
+    background: url(../images/Application.png) center top no-repeat;
+    background-size: cover;
+    position: absolute;
+    padding-bottom: 1043px;
+    top: -304px;
+    left: -46px;
+  }
+  .map {
+    width: 100%;
+    padding-top: 228px;
+  }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .banner {
+    width: 100%;
+    padding: 0px 0px;
+  }
+  .inner-banner h1 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 30px;
+  }
+  .inner-banner p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    padding-bottom: 0px;
+  }
+  .feature {
+    width: 100%;
+    padding: 0px 40px;
+  }
+
+  .healthcare {
+    width: 100%;
+    padding: 50px 40px 450px;
+    background: url(../images/Healthcare\ Data.png) center top no-repeat;
+    background-size: cover;
+  }
+  .healthcare .inner-healthcare-text {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .healthcare .inner-third-text {
+    width: 100%;
+    padding: 0px 0px 150px;
+  }
+
+  .inner-second-text {
+    text-align: left;
+    padding-left: 0px;
+    margin-bottom: 30px;
+  }
+  .map .inner-map .card .card-body {
+    position: absolute;
+    z-index: 1;
+    border: 1px solid #7af1ff;
+    background: radial-gradient(circle, #7af1ff, #fff);
+    top: 85px;
+    left: 0px;
+    box-shadow: 0px 0px 10px;
+  }
+  .application .inner-app-design {
+    width: 136%;
+    background: url(../images/Application.png) center top no-repeat;
+    background-size: cover;
+    position: absolute;
+    padding-bottom: 1043px;
+    top: -304px;
+    left: -46px;
+  }
+  .map {
+    width: 100%;
+    padding-top: 228px;
+  }
+}
